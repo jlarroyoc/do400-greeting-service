@@ -22,7 +22,6 @@ pipeline{
         }
 
         // Add the "Deploy" stage here
-    }
 	stage('Deploy') {
 	    steps {
        		 sh '''
